@@ -3,7 +3,7 @@
         {
             "source": "/(.*)",
             "destination": "/",
-            "builds": [{ "src": "npm run build", "use": "@vercel/static-build" }]
+            "outputDirectory": "build"
         }
     ]
 }
