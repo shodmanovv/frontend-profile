@@ -2,7 +2,9 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/"
+            "destination": "/",
+            "version": 2,
+            "builds": [{ "src": "npm run build", "use": "@vercel/static-build" }]
         }
     ]
 }
