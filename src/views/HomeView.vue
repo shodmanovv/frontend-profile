@@ -66,7 +66,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div class="d-flex flex-column gap-5">
               <a href="https://notes-frontend-pearl.vercel.app/signup" target="_blank">
-                <img src="file:///C:/Users/User/Downloads/2024-06-19_17-22-36.png" alt="img" class="img-hover rounded-4 img-fluid" />
+                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="img" class="img-hover rounded-4 img-fluid" />
               </a>
               <h3 class="h4 mb-0">Notes</h3>
             </div>
