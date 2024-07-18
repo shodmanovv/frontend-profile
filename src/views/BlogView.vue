@@ -40,14 +40,14 @@
               <div class="mb-4">
                 <a href="#">
                   <div class="img-zoom">
-                    <img :src="post.img" alt="thumb" class="img-fluid rounded w-100">
+                    <img src="" alt="thumb" class="img-fluid rounded w-100">
                   </div>
                 </a>
               </div>
               <div>
                 <a href="#" class="text-info mb-3 font-14 d-inline-block fw-semi-bold">{{ post.categorys }}</a>
                 <RouterLink :to="{ name: 'detail', params: { id: post.id } }">
-                  <h3 class="mb-3">{{ post.name }}</h3>
+                  <h3 class="mb-3">Junior, Middle и Senior: кто такие и как ими стать?</h3>
                 </RouterLink>
                 <div class="mb-3">
                   <div class="font-14">
