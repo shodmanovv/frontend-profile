@@ -29,6 +29,9 @@
             <i class="fas fa-times"></i>
           </button>
           <ul class="navbar-nav ms-auto me-lg-3">
+            #<li class="nav-item">
+              #<RouterLink :to="{ name: 'blogs' }" class="nav-link" aria-current="page">Blogs</RouterLink>
+            #</li>
             <li class="nav-item">
               <a class="nav-link" href="#pages">Projects</a>
             </li>
