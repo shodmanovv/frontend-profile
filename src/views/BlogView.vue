@@ -34,7 +34,7 @@
     <div class="py-xxl-16 py-lg-8 py-6">
       <div class="container">
         <div class="row gy-xxl-8 gy-5">
-          <article v-for="post in posts" :key="post.id" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+          <article class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
             <div>
               <!-- post classic block -->
               <div class="mb-4">
@@ -46,9 +46,7 @@
               </div>
               <div>
                 <a href="#" class="text-info mb-3 font-14 d-inline-block fw-semi-bold">{{ post.categorys }}</a>
-                <RouterLink :to="{ name: 'detail', params: { id: post.id } }">
                   <h3 class="mb-3">Junior, Middle и Senior: кто такие и как ими стать?</h3>
-                </RouterLink>
                 <div class="mb-3">
                   <div class="font-14">
                     <span>
