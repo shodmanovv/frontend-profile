@@ -40,7 +40,7 @@
               <div class="mb-4">
                 <a href="#">
                   <div class="img-zoom">
-                    <img src="" alt="thumb" class="img-fluid rounded w-100">
+                    <img src="https://images.app.goo.gl/T31EwdpXVmvuiQ8n8" alt="thumb" class="img-fluid rounded w-100">
                   </div>
                 </a>
               </div>
